@@ -11,11 +11,30 @@ In order to run this project node.js and npm both need to have been installed.
 "react-scripts": "3.1.1",
 "react-smooth-dnd": "^0.11.0"
 
+To install Client App from root folder
+/student-library> create-react-app client
+/student-library> cd client
+/student-library/client> npm install react-router-dom
+/student-library/client> npm install react-smooth-dnd
+/student-library/client> npm install react-paginating
+
+
 ## Dependencies - Database
 "body-parser": "^1.19.0",
 "cors": "^2.8.5",
 "express": "^4.17.1",
 "sqlite3": "^4.1.0"
+
+To install Express with database sqlite
+/student-library> npm install express
+/student-library> npm install sqlite3
+/student-library> npm install body-parser
+/student-library> npm install cors
+
+In Package.json file add the below object
+"scripts": {
+    "start": "node index.js"
+}
 
 ## Database 
 <ol>
