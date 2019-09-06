@@ -12,7 +12,7 @@ In order to run this project node.js and npm both need to have been installed.
 "react-smooth-dnd": "^0.11.0"
 
 <ol>
-<li>Follow the below step, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
+<li>Follow the below steps, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
 <li>To install Client App from root folder</li>
 <li>/student-library> create-react-app client</li>
 <li>/student-library> cd client</li>
@@ -27,7 +27,7 @@ In order to run this project node.js and npm both need to have been installed.
 "express": "^4.17.1",
 "sqlite3": "^4.1.0"
 <ol>
-<li>Follow the below step, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
+<li>Follow the below steps, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
 <li>To install Express with database sqlite</li>
 <li>/student-library> npm install express</li>
 <li>/student-library> npm install sqlite3</li>
