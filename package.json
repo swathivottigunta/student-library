@@ -1,0 +1,20 @@
+{
+  "name": "student-library",
+  "version": "1.0.0",
+  "description": "This project displays student list and enables to add/edit/change status of a student",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,46 @@
+
+  /******************* Change Status Page ********************************/
+  
+  .smooth-dnd-container.horizontal {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .smooth-dnd-container.horizontal>.smooth-dnd-draggable-wrapper {
+    margin-right: 25px;
+    height: 500px;
+    overflow: scroll;
+  }
+  
+  .card div {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .smooth-dnd-container.vertical {
+    height: 500px;
+    overflow: scroll;
+    width: 250px;
+  }
+  
+  .smooth-dnd-container.horizontal>.smooth-dnd-draggable-wrapper {
+    width: 50%;
+  }
+  /******************* Change Status Page - End ********************************/
+  @media screen and (max-width:800px){
+    .smooth-dnd-container.vertical{
+        width:120px;
+
+    }
+    .smooth-dnd-container.horizontal>.smooth-dnd-draggable-wrapper {
+        width: 20%;
+      }
+  }
