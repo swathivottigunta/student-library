@@ -3,7 +3,7 @@ This project displays student list and enables to add/edit/change status of a st
 
 ## Prerequisites
 In order to run this project node.js and npm both need to have been installed.
-## Dependencies - Client App
+## Dependencies - React Client App
 "react": "^16.9.0",
 "react-dom": "^16.9.0",
 "react-paginating": "^1.3.0-hook.2",
@@ -11,25 +11,29 @@ In order to run this project node.js and npm both need to have been installed.
 "react-scripts": "3.1.1",
 "react-smooth-dnd": "^0.11.0"
 
-To install Client App from root folder
-/student-library> create-react-app client
-/student-library> cd client
-/student-library/client> npm install react-router-dom
-/student-library/client> npm install react-smooth-dnd
-/student-library/client> npm install react-paginating
+<ol>
+<li>Follow the below step, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
+<li>To install Client App from root folder</li>
+<li>/student-library> create-react-app client</li>
+<li>/student-library> cd client</li>
+<li>/student-library/client> npm install react-router-dom</li>
+<li>/student-library/client> npm install react-smooth-dnd</li>
+<li>/student-library/client> npm install react-paginating</li>
+</ol>
 
-
-## Dependencies - Database
+## Dependencies - Express and SQLite3 Database
 "body-parser": "^1.19.0",
 "cors": "^2.8.5",
 "express": "^4.17.1",
 "sqlite3": "^4.1.0"
-
-To install Express with database sqlite
-/student-library> npm install express
-/student-library> npm install sqlite3
-/student-library> npm install body-parser
-/student-library> npm install cors
+<ol>
+<li>Follow the below step, if something not working while running project. Because some of the files are truncated while pushing to git remotely</li>
+<li>To install Express with database sqlite</li>
+<li>/student-library> npm install express</li>
+<li>/student-library> npm install sqlite3</li>
+<li>/student-library> npm install body-parser</li>
+<li>/student-library> npm install cors</li>
+</ol>
 
 In Package.json file add the below object
 "scripts": {
