@@ -1,5 +1,5 @@
 # React Express Student Library
-This project displays student list and enables to add/edit/change status of a student
+This project displays student list and enables to add/edit/change-status(trello board) of a student
 
 ## Prerequisites
 In order to run this project node.js and npm both need to have been installed.
